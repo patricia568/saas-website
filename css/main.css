@@ -5,3 +5,11 @@ html {
 .img-flex {
   height: 100%;
 }
+
+.page-btn {
+  background-color: #5980C9;
+  border-radius: 15px;
+  width: 10em;
+  text-decoration: none;
+  color: #fff;
+}
