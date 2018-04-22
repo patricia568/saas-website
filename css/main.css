@@ -9,19 +9,15 @@ html {
 .page-btn {
   background-color: #5980C9;
   border-radius: 15px;
-  width: 10em;
   text-decoration: none;
   color: #fff;
+  padding: .3em 1.1em;
 }
 
 input, textarea, select {
   border-radius: 15px;
   background-color: #DDEDFF;
   border: none;
-}
-
-input[type=radio] {
-  width:
 }
 
 p {
@@ -37,8 +33,41 @@ p {
   vertical-align: middle;
 }
 
+.nav-link {
+  color: #DDEDFF;
+  margin-right: 1em;
+}
+
+.icon-label {
+  color: #DDEDFF;
+}
+
+.ol-items {
+  text-align: center;
+}
+
+.nav-link-sign-up {
+  color: #5980C9;
+  background-color: #DDEDFF;
+  border-radius: 15px;
+  padding: .3em 1.1em;
+  margin-right: 0;
+}
+
 header {
   background-color: #5980C9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-link {
+    margin-right: 2.5em;
+  }
+
+  .ol-items {
+    text-align: right;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -49,6 +78,10 @@ header {
 
   .features-container {
     vertical-align: center;
+  }
+
+  .nav-link {
+    margin-right: 6em;
   }
 
 }
@@ -62,5 +95,6 @@ header {
   .banner-content {
     max-width: 35em;
   }
+
 
 }
