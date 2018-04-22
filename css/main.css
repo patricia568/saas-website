@@ -12,6 +12,9 @@ html {
   text-decoration: none;
   color: #fff;
   padding: .3em 1.1em;
+  border: none;
+  width: 10em;
+  max-width: 10em;
 }
 
 input, textarea, select {
@@ -76,7 +79,7 @@ header {
     max-width: 25em;
   }
 
-  .features-container {
+  .features-container, .product-features-container {
     vertical-align: center;
   }
 
