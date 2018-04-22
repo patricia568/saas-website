@@ -13,3 +13,13 @@ html {
   text-decoration: none;
   color: #fff;
 }
+
+input, textarea, select {
+  border-radius: 15px;
+  background-color: #DDEDFF;
+  border: none;
+}
+
+input[type=radio] {
+  width:
+}
