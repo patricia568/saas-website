@@ -23,3 +23,44 @@ input, textarea, select {
 input[type=radio] {
   width:
 }
+
+p {
+  color: #707070;
+}
+
+.banner-img {
+  max-width: 35em;
+}
+
+.banner-content {
+  max-width: 25em;
+  vertical-align: middle;
+}
+
+header {
+  background-color: #5980C9;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-img {
+    max-width: 25em;
+  }
+
+  .features-container {
+    vertical-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-img {
+    max-width: 30em;
+  }
+
+  .banner-content {
+    max-width: 35em;
+  }
+
+}
