@@ -7,7 +7,7 @@ html {
 }
 
 .page-btn {
-  background-color: #5980c9;
+  background-color: #45649f;
   border-radius: 15px;
   text-decoration: none;
   color: #fff;
@@ -24,7 +24,7 @@ input, textarea, select {
 }
 
 h1, .value-p {
-  color: #5980c9;
+  color: #45649f;
 }
 
 p {
@@ -41,12 +41,12 @@ p {
 }
 
 .nav-link {
-  color: #ddedff;
+  color: #fff;
   margin-right: 1em;
 }
 
 .icon-label {
-  color: #ddedff;
+  color: #fff;
 }
 
 .bullet-points {
@@ -58,7 +58,7 @@ p {
 }
 
 .nav-link-sign-up {
-  color: #5980c9;
+  color: #45649f;
   background-color: #ddedff;
   border-radius: 15px;
   padding: .3em 1.1em;
@@ -66,11 +66,11 @@ p {
 }
 
 header {
-  background-color: #5980c9;
+  background-color: #45649f;
 }
 
 .current {
-  border-bottom: 6px solid #ddedff;
+  border-bottom: 6px solid #fff;
 }
 
 .card {
@@ -80,7 +80,7 @@ header {
 }
 
 footer {
-  background-color: #5980c9;
+  background-color: #45649f;
   padding: 10px;
 }
 
