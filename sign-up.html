@@ -35,84 +35,105 @@
     <section class="grid max-length push-2">
       <h1 class="unit xs-1 s-1 m-1 l-1 xl-1 text-upper text-center peta">Sign up</h1>
       <form class="unit xs-1 s-1 m-1 l-1 xl-1 island" method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
-        <fieldset class="grid push-2">
+        <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 push-2">
           <legend class="unit xs-1 s-1 m-1 l-1 xl-1 peta push-1-2">Personal Information</legend>
-          <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
-              <label for="first-name" class="">First name</label>
-              <input id="first-name" name="name" class="form-item" required>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
-              <label for="last-name" class="">Last name</label>
-              <input id="last-name" name="name" required>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
-              <label for="email" class="">Email</label>
-              <input id="email" type="email" name="email" class="form-item" required>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
-              <label for="tel" class="">Phone number<i>(optional)</i></label>
-              <input id="tel" type="tel" name="tel">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
-              <label for="birthdate" class="">Date of birth</label>
-              <input id="birthdate" type="date" class="form-item" required>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
-              <label for="region" class="">Continental region</label>
-              <select id="region" name="region">
-                <option label="region" value="">Select a region</option>
-                <option>Africa</option>
-                <option>Europe</option>
-                <option>Asia</option>
-                <option>North America</option>
-                <option>South America</option>
-                <option>Australia</option>
-              </select>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="first-name">First name</label>
+                <input id="first-name" name="name" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="last-name">Last name</label>
+                <input id="last-name" name="name" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="tel">Phone number<i>(optional)</i></label>
+                <input id="tel" type="tel" name="tel">
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="birthdate">Date of birth</label>
+                <input id="birthdate" type="date" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="region">Continental region</label>
+                <select id="region" name="region">
+                  <option label="region" value="">Select a region</option>
+                  <option>Africa</option>
+                  <option>Europe</option>
+                  <option>Asia</option>
+                  <option>North America</option>
+                  <option>South America</option>
+                  <option>Australia</option>
+                </select>
+              </div>
             </div>
           </div>
         </fieldset>
         <fieldset class="grid push-2">
           <legend class="unit xs-1 s-1 m-1 l-1 xl-1 peta push-1-2">What are the most appealing file sharing features to you?</legend>
           <p class="italic unit xs-1 s-1 m-1 l-1 xl-1">Select all that apply</p>
-          <div class="grid">
-            <input id="secure" type="checkbox" name="features">
-            <label for="secure" class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Secure file backups</label>
-
-            <input id="sharing" type="checkbox" name="features">
-            <label for="sharing" class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Easy sharing</label>
-
-            <input id="syncing" type="checkbox" name="features">
-            <label for="syncing" class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Automatic syncing</label>
-
-            <input id="management" type="checkbox" name="features">
-            <label for="management" class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Organized management</label>
-
-            <input id="device" type="checkbox" name="features">
-            <label for="device" class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Multiple device access</label>
-
-            <input id="support" type="checkbox" name="features">
-            <label for="support" class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Quick support</label>
-
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                <input id="secure" type="checkbox" name="features">
+                <label for="secure" class="push-1-2">Secure file backups</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                <input id="sharing" type="checkbox" name="features">
+                <label for="sharing" class="push-1-2">Easy sharing</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                <input id="syncing" type="checkbox" name="features">
+                <label for="syncing" class="push-1-2">Automatic syncing</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                <input id="management" type="checkbox" name="features">
+                <label for="management" class="push-1-2">Organized management</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                <input id="device" type="checkbox" name="features">
+                <label for="device" class="push-1-2 unit">Multiple device access</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                <input id="support" type="checkbox" name="features">
+                <label for="support" class="push-1-2">Quick support</label>
+              </div>
+            </div>
           </div>
         </fieldset>
         <fieldset class="grid push-2">
           <legend class="unit xs-1 s-1 m-1 l-1 xl-1 peta push-1-2">How will you be using File Share?</legend>
-          <div class="grid">
-            <input type="radio" id="personal" name="usage">
-            <label class="push-1-2 unit xs-1 s-1 m-1-3 l-1-m xl-1-3" for="personal">Personal use</label>
-            <input type="radio" id="corporate" name="usage">
-            <label class="push-1-2 unit xs-1 s-1 m-1-3 l-1-m xl-1-3" for="corporate">Corporate Use</label>
-            <input type="radio" id="both" name="usage">
-            <label class="push-1-2 unit xs-1 s-1 m-1-3 l-1-m xl-1-3" for="both">Both</label>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+                <input type="radio" id="personal" name="usage">
+                <label class="push-1-2" for="personal">Personal use</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+                <input type="radio" id="corporate" name="usage">
+                <label class="push-1-2" for="corporate">Corporate Use</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+                <input type="radio" id="both" name="usage">
+                <label for="both">Both</label>
+              </div>
+            </div>
           </div>
         </fieldset>
-        <div>
-          <label class="peta push-1-2" for="comments">Additional comments<i>(optional)</i></label>
+        <div class="push">
+          <label class="peta push-1-2 bold" for="comments">Additional comments<i class="not-bold kilo"> (optional)</i></label>
           <textarea id="comments" name="comments"></textarea>
         </div>
         <button class="btn btn-ghost page-btn" type="submit">LET'S GO!</button>
       </form>
+      <div class="gutter unit xs-1 s-1 m-1 l-1 xl-1 text-center">
+        <a class="btn btn-ghost mega not-bold page-btn micro text-center" href="sign-up.html">BACK TO HOMEPAGE</a>
+      </div>
     </section>
   </main>
   <footer role="contentinfo">
@@ -130,3 +151,4 @@
     </i>
   </footer>
 </body>
+</html>
