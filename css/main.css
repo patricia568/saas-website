@@ -13,8 +13,10 @@ html {
   color: #fff;
   padding: .3em 1.1em;
   border: none;
-  width: 11em;
-  max-width: 11em;
+}
+
+.btn {
+  border: none;
 }
 
 input, textarea, select {
@@ -114,7 +116,6 @@ table {
 @media only screen and (min-width: 38em) {
 
   .nav-link {
-    margin-right: 2.5em;
   }
 
   .ol-items {
