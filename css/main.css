@@ -161,10 +161,6 @@ table {
     vertical-align: center;
   }
 
-  .nav-link {
-    margin-right: 6em;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
