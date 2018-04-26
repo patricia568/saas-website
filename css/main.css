@@ -1,5 +1,5 @@
 html {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 .skip-links a {
@@ -76,12 +76,16 @@ p {
   margin-right: 0;
 }
 
-.header {
+.nav-items {
   background-color: #45649f;
 }
 
 .current {
   border-bottom: 6px solid #fff;
+}
+
+caption {
+  color: #45649f;
 }
 
 .card {
@@ -123,9 +127,6 @@ table {
 }
 
 @media only screen and (min-width: 38em) {
-
-  .nav-link {
-  }
 
   .ol-items {
     text-align: right;
