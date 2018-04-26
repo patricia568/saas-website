@@ -11,29 +11,34 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
 </head>
 <body>
-  <header class="grid nav-items push-2">
-    <ul class="unit xs-1 s-1 l-1-3 xl-1-3 list-group">
-      <li>
-        <i class="icon i-18">
-          <img src="images/logo-icon.svg" alt="">
-        </i>
-        <span class="icon-label">File Share</span>
-      </li>
-    </ul>
-    <nav class="unit xs-1 s-1 l-2-3 xl-2-3">
-      <ol class="list-group list-group-inline">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="touring.html">PRODUCT</a></li>
-        <li><a class="current" href="pricing.html">PRICING</a></li>
-        <li><a href="sign-up.html">SIGN UP</a></li>
+  <ul>
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+  <header role="banner" class="grid nav-items">
+    <a class="icon-link unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 pad-t company-logo gutter" href="index.html">
+      <i class="icon i-18">
+        <img src="images/logo-icon.svg" alt="company-logo" aria-details="company-logo">
+      </i>
+      <span class="icon-label">File Share</span>
+    </a>
+    <nav role="navigation" id="nav" class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
+      <ol class="ol-items list-group list-group-inline pad-t">
+        <li><a class="nav-link icon-link" href="touring.html" aria-label="Navigate to the product page">PRODUCT</a></li>
+        <li><a class="nav-link icon-link current" href="pricing.html" aria-label="Navigate to the pricing page">PRICING</a></li>
+        <li><a class="nav-link nav-link-sign-up icon-link" href="sign-up.html" aria-label="Navigate to the sign up page">SIGN UP</a></li>
       </ol>
     </nav>
   </header>
-  <main class="gutter grid wrapper">
+  <main class="gutter grid wrapper push-2">
     <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
       <section class="card card-1 list-group grid pad-t push-2">
         <h2 class="unit xs-1 s-1 m-1 l-1 xl-1 push-0 peta text-center">Basic</h2>
-        <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 mega not-bold text-center push">FREE</h3>
+        <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 mega bold text-center push pricing">FREE</h3>
         <ul class="gutter-1-2 unit xs-1 s-1 m-1 l-1 xl-1">
           <li class="push">
             <i class="icon i-16">
@@ -56,7 +61,7 @@
     <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
       <section class="card card-2 list-group grid pad-t push-2">
         <h2 class="unit xs-1 s-1 m-1 l-1 xl-1 push-0 peta text-center">Advanced</h2>
-        <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 mega not-bold text-center push">$12.99/month</h3>
+        <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 mega bold text-center push pricing">$12.99/month</h3>
         <ul class="gutter-1-2 unit xs-1 s-1 m-1 l-1 xl-1">
           <li class="push">
             <i class="icon i-16">
@@ -79,7 +84,7 @@
     <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
       <section class="card card-3 list-group grid pad-t">
         <h2 class="unit xs-1 s-1 m-1 l-1 xl-1 push-0 peta text-center">Superior</h2>
-        <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 mega not-bold text-center push">$24.99/month</h3>
+        <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 mega bold text-center push pricing">$24.99/month</h3>
         <ul class="gutter-1-2 unit xs-1 s-1 m-1 l-1 xl-1">
           <li class="push">
             <i class="icon i-16">

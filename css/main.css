@@ -84,11 +84,20 @@ footer {
   padding: 10px;
 }
 
+.pricing {
+  margin-top: -1em;
+  color: #707070;
+}
+
 @media only screen and (min-width: 25em) {
 
   .card {
     max-width: 70%;
     margin: auto;
+  }
+
+  .card-1, .card-2 {
+    margin-bottom: 1em;
   }
 
 }
